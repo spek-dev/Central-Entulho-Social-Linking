@@ -75,12 +75,29 @@ body {
     clip-path: circle(50%);
 }
 
-.copyright {
-    color: #000;
-    text-decoration: none;
-}
-
 .developer-insta {
     text-decoration: underline;
     color: #000;
+}
+
+.back-button {
+    background: #afc3ff;
+    margin: auto;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    border: none;    
+    border-radius: .625rem;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.back-button:hover {
+    background: #ee9067;
+    transition: 500ms;
+} 
+
+.copyright {
+    color: #000;
+    font-size: 1rem;
 }

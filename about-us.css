@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: 300px 200px;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .member-img {
@@ -30,6 +31,23 @@
     transition: 500ms;
     text-decoration: underline;
 }
+
+.back-button {
+    background: #75EC91;
+    margin: auto;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    border: none;    
+    border-radius: .625rem;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.back-button:hover {
+    background: #ee9067;
+    transition: 500ms;
+} 
 
 @media screen and (max-width: 500px) {
     .member-img {
