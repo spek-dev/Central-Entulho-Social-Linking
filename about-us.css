@@ -1,0 +1,46 @@
+.about-us.title {
+    font-size: 1.4rem;
+}
+
+.team-title {
+    margin-top: 3.5rem;
+    font-size: 1.4rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 200px;
+    justify-content: center;
+}
+
+.member-img {
+    width: 220px;
+    height: 250px;
+    clip-path: circle(45%);
+}
+
+.insta-member {
+    color: #000;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.insta-member:hover {
+    color: #157247;
+    transition: 500ms;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    .member-img {
+        width: 100px;
+        height: 100px;
+        clip-path: circle(45%);
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 200px 150px;
+        justify-content: center;
+    }
+}
