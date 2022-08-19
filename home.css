@@ -43,6 +43,11 @@ body {
     font-weight: 400;
 }
 
+.attendance {
+    color: #27c5ab;
+    font-size: 13px;
+}
+
 .links-container button {
     width: 70%;
     background: none;
@@ -67,10 +72,6 @@ body {
     width: 10rem;
     margin-bottom: 1rem;
     clip-path: circle(50%);
-}
-
-.p-footer {
-    color: #27c5ab;
 }
 
 .copyright {
