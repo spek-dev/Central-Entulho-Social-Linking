@@ -1,3 +1,13 @@
+h1 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.disconnected {
+    width: 370px;
+    height: 400px;
+}
+
 .back-button {
     background: #afc3ff;
     margin: auto;
@@ -14,3 +24,7 @@
     background: #ee9067;
     transition: 500ms;
 } 
+
+.copyright {
+    font-size: 0.7rem;
+}
